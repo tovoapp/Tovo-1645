@@ -1,0 +1,18 @@
+/* Future product announcement — not an interactive chatbot. */
+.nav-inner .navigation{margin-left:auto}
+.ai-section{background:var(--paper)}
+.ai-inner{display:grid;grid-template-columns:1.1fr 1fr;gap:80px;align-items:center}
+.ai-copy h2{font-size:48px;font-weight:800;letter-spacing:-2.5px;line-height:1.15}
+.ai-copy h2 span{color:#d400a5}
+.ai-copy>p{font-size:14px;line-height:1.9;color:var(--grey);margin-top:24px;max-width:390px}
+.ai-preview{padding:32px;border:1px solid var(--line);border-radius:20px;background:#fff}
+.ai-preview-header{display:flex;gap:10px;align-items:center;margin-bottom:28px}
+.ai-preview-header img{width:24px;height:27px;object-fit:contain}
+.ai-preview-header span{font-size:18px;font-weight:800;letter-spacing:-.6px}
+.ai-question{display:flex;align-items:center;gap:13px;background:#f1f1eb;border-radius:13px;padding:20px;margin-bottom:13px}
+.ai-question>svg{flex-shrink:0}
+.ai-question p{font-size:14px;font-weight:600;line-height:1.5}
+.ai-question-friends{background:var(--yellow);margin-bottom:0}
+@media(max-width:1100px){.ai-inner{gap:45px}.ai-copy h2{font-size:40px;letter-spacing:-2px}.ai-preview{padding:24px}.ai-question{padding:16px}.ai-question p{font-size:12px}}
+@media(max-width:850px){.ai-inner{gap:28px}.ai-copy h2{font-size:34px;letter-spacing:-1.7px}.ai-copy>p{font-size:12px}.ai-preview{padding:20px}.ai-question{gap:10px;padding:14px}.ai-question p{font-size:11px}}
+@media(max-width:600px){.nav-inner .navigation{margin-left:0}.menu-toggle{margin-left:auto}.ai-inner{grid-template-columns:1fr;gap:32px}.ai-copy h2{font-size:37px;letter-spacing:-1.8px}.ai-copy>p{font-size:13px;margin-top:20px;max-width:100%}.ai-preview{padding:24px}.ai-question{padding:18px}.ai-question p{font-size:12px}.ai-preview-header{margin-bottom:24px}}

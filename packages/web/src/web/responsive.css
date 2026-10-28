@@ -1,0 +1,60 @@
+/* Device-independent layout, touch targets and safe areas. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.hero-inner,.showcase-inner{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.hero-copy,.showcase-copy,.ai-copy,.brand-copy{min-width:0}
+.navigation a,.footer-links a,.footer-bottom a,.logo,.text-link{min-height:44px;display:inline-flex;align-items:center}
+.menu-toggle{min-width:44px;min-height:44px;justify-content:center}
+.hero-copy>p{font-size:16px}
+.feature>p,.showcase-copy>p,.brand-copy>p,.ai-copy>p{font-size:15px}
+.footer-links a{font-size:12px}
+.footer-bottom{font-size:10px;align-items:center}
+.footer{padding-bottom:calc(20px + env(safe-area-inset-bottom,0px))}
+.final-section p{font-size:16px;max-width:none;text-wrap:balance}
+.privacy-page p{overflow-wrap:anywhere}
+.preview-label,.showcase-note{font-size:11px}
+/* Collapse before either desktop column becomes too narrow. */
+@media(min-width:601px) and (max-width:950px){
+  .hero-inner,.showcase-inner{display:flex;flex-direction:column;min-height:0;gap:0}
+  .hero-copy{width:100%;text-align:center;padding-top:55px;padding-bottom:0}
+  .hero h1{font-size:clamp(74px,11vw,96px);letter-spacing:-4.5px}
+  .hero-actions{flex-direction:row;justify-content:center}
+  .hero-art{width:535px;height:620px;transform:scale(.88);transform-origin:top center;margin:28px 0 -60px;animation:none}
+  .showcase-copy{width:100%;text-align:center;padding:64px 0 0}
+  .showcase h2{font-size:54px}
+  .showcase-art{width:520px;height:600px;transform:scale(.86);transform-origin:top center;margin:24px 0 -42px}
+  .showcase-note{margin-top:20px}
+  .brand h2{font-size:clamp(34px,5vw,44px)}
+  .feature h3{font-size:21px}
+  .scene-card{width:min(175px,calc(100% - 28px))}
+  .scene-card-two{left:20px}
+}
+@media(min-width:951px) and (max-width:1100px){
+  .hero-art{transform:scale(.8)}
+  .showcase-art{transform:scale(.8)}
+  .hero h1{font-size:72px;letter-spacing:-4px}
+}
+@media(max-width:600px){
+  .hero h1{font-size:clamp(49px,15.4vw,85px);letter-spacing:-3.3px}
+  .hero-copy>p,.feature>p,.showcase-copy>p,.brand-copy>p,.ai-copy>p{font-size:14px;line-height:1.85}
+  .desktop-break{display:none}
+  .hero-actions .text-link{font-size:13px}
+  .navigation a{font-size:14px}
+  .hero-art,.showcase-art{--mockup-scale:.7;transform:scale(var(--mockup-scale));transform-origin:top center}
+  .hero-art{margin-bottom:calc(-620px * (1 - var(--mockup-scale)) + 20px)}
+  .showcase-art{margin-bottom:calc(-600px * (1 - var(--mockup-scale)) + 30px)}
+  .feature h3{font-size:23px}
+  .scene-card{width:min(250px,calc(100% - 50px))}
+  .scene-card-two{left:36px}
+  .ai-copy h2{font-size:clamp(30px,9.4vw,37px)}
+  .brand h2{font-size:clamp(36px,10.5vw,44px)}
+  .footer-links{gap:8px;flex-wrap:wrap}
+  .footer-links a{font-size:11px}
+  .footer-bottom{font-size:10px;gap:10px}
+  .final-section p{font-size:14px;max-width:none}
+  .showcase-note,.preview-label{font-size:10px}
+}
+@media(max-width:400px){.hero-art,.showcase-art{--mockup-scale:.64}}
+@media(max-width:360px){.hero-art,.showcase-art{--mockup-scale:.54}.section-heading h2{font-size:31px}.showcase h2{font-size:37px}.ai-preview{padding:18px}.ai-question{padding:15px;gap:10px}.ai-question p{font-size:12px}}
+@media(max-height:500px) and (orientation:landscape){.nav-inner{height:64px}.site-header .navigation{top:63px}.hero-inner{padding-top:0}.hero-copy{padding-top:32px}.section{padding-block:56px}}
+@media(prefers-reduced-motion:reduce){.hero-copy,.hero-art{animation:none}}

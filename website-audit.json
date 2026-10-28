@@ -1,0 +1,490 @@
+{
+  "viewports": [
+    {
+      "viewport": [
+        320,
+        900
+      ],
+      "width": 320,
+      "scrollWidth": 320,
+      "menu": "grid",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          15,
+          185
+        ],
+        [
+          122,
+          303
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        360,
+        900
+      ],
+      "width": 360,
+      "scrollWidth": 360,
+      "menu": "grid",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          35,
+          205
+        ],
+        [
+          142,
+          323
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        375,
+        900
+      ],
+      "width": 375,
+      "scrollWidth": 375,
+      "menu": "grid",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          16,
+          217
+        ],
+        [
+          142,
+          357
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        900
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "menu": "grid",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          23,
+          225
+        ],
+        [
+          150,
+          365
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        412,
+        900
+      ],
+      "width": 412,
+      "scrollWidth": 412,
+      "menu": "grid",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          18,
+          239
+        ],
+        [
+          156,
+          392
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        430,
+        900
+      ],
+      "width": 430,
+      "scrollWidth": 430,
+      "menu": "grid",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          27,
+          248
+        ],
+        [
+          165,
+          401
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        600,
+        900
+      ],
+      "width": 600,
+      "scrollWidth": 600,
+      "menu": "grid",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          112,
+          333
+        ],
+        [
+          250,
+          486
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        601,
+        900
+      ],
+      "width": 601,
+      "scrollWidth": 601,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          30,
+          307
+        ],
+        [
+          214,
+          510
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "width": 768,
+      "scrollWidth": 768,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          114,
+          391
+        ],
+        [
+          297,
+          593
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        820,
+        900
+      ],
+      "width": 820,
+      "scrollWidth": 820,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          140,
+          417
+        ],
+        [
+          323,
+          619
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        834,
+        900
+      ],
+      "width": 834,
+      "scrollWidth": 834,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          147,
+          424
+        ],
+        [
+          330,
+          626
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        950,
+        900
+      ],
+      "width": 950,
+      "scrollWidth": 950,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          205,
+          482
+        ],
+        [
+          388,
+          684
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        951,
+        900
+      ],
+      "width": 951,
+      "scrollWidth": 951,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          454,
+          706
+        ],
+        [
+          621,
+          890
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        900
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          490,
+          742
+        ],
+        [
+          657,
+          926
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1194,
+        900
+      ],
+      "width": 1194,
+      "scrollWidth": 1194,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          581,
+          895
+        ],
+        [
+          795,
+          1131
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "width": 1280,
+      "scrollWidth": 1280,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          624,
+          938
+        ],
+        [
+          838,
+          1174
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          704,
+          1018
+        ],
+        [
+          918,
+          1254
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "width": 1920,
+      "scrollWidth": 1920,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          969,
+          1283
+        ],
+        [
+          1183,
+          1519
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "width": 2560,
+      "scrollWidth": 2560,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          1289,
+          1603
+        ],
+        [
+          1503,
+          1839
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        852,
+        393
+      ],
+      "width": 852,
+      "scrollWidth": 852,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          156,
+          433
+        ],
+        [
+          339,
+          635
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        932,
+        430
+      ],
+      "width": 932,
+      "scrollWidth": 932,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          196,
+          473
+        ],
+        [
+          379,
+          675
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "width": 1024,
+      "scrollWidth": 1024,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          490,
+          742
+        ],
+        [
+          657,
+          926
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1180,
+        820
+      ],
+      "width": 1180,
+      "scrollWidth": 1180,
+      "menu": "none",
+      "textOutside": [],
+      "phoneBounds": [
+        [
+          574,
+          888
+        ],
+        [
+          788,
+          1124
+        ]
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "browserStorage": {
+    "cookies": "",
+    "localStorage": [],
+    "sessionStorage": [],
+    "indexedDB": []
+  },
+  "nonLocalBrowserStorage": {
+    "cookies": "",
+    "localStorage": [],
+    "sessionStorage": [],
+    "indexedDB": []
+  },
+  "platformAnalyticsRequestsIntercepted": [
+    {
+      "method": "GET",
+      "url": "https://r.lilstts.com/events?data=eyJ1IjoiaHR0cHM6Ly90b3ZvLXdzeXdxZGMtd2Vic2l0ZSIsImUiOlt7InQiOiJQYWdlVmlldyIsImgiOmZhbHNlfV19",
+      "body": null
+    },
+    {
+      "method": "POST",
+      "url": "https://r.lilstts.com/events",
+      "body": "{\"u\":\"https://tovo-wsywqdc-website\",\"e\":[{\"t\":\"PageView\",\"h\":false}]}"
+    }
+  ],
+  "limits": "Chromium viewport/touch-layout checks, not physical-device certification. Hosting logs and analytics retention are not independently auditable."
+}
