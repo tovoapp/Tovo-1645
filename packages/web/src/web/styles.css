@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 @import "./tovo.css";
 @import "./ai-section.css";
+@import "./social-section.css";
 @import "./responsive.css";
 
 @custom-variant dark (&:is(.dark *));

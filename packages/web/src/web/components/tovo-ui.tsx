@@ -28,8 +28,8 @@ export function Phone({ screen, className = "" }: { screen: "map" | "events"; cl
     <div className="phone-screen">
       <div className="phone-status"><b>9:41</b><span><Signal size={11}/><Wifi size={12}/><BatteryFull size={16}/></span></div><div className="dynamic-island"/>
       <div className="phone-header"><span className="phone-wordmark">Tovo<span>.</span></span><span className="phone-location"><MapPin size={10}/> Around you</span></div>
-      {screen === "map" ? <><div className="map-app-title"><h3>Your city.<br/>A little closer.</h3><div className="phone-search"><Search size={12}/>Discover around you</div></div><MapVisual/><div className="map-event"><img src="/images/concert.webp" alt=""/><div><small>NEARBY</small><b>Under the stars</b><span>Music · Riverside</span></div><ArrowUpRight size={18}/></div></> : <>
-        <div className="events-app-title"><h3>Find your<br/><span>next moment.</span></h3></div>
+      {screen === "map" ? <><div className="map-app-title"><h3>Your city. <br/>A little closer.</h3><div className="phone-search"><Search size={12}/>Discover around you</div></div><MapVisual/><div className="map-event"><img src="/images/concert.webp" alt=""/><div><small>NEARBY</small><b>Under the stars</b><span>Music · Riverside</span></div><ArrowUpRight size={18}/></div></> : <>
+        <div className="events-app-title"><h3>Find your <br/><span>next moment.</span></h3></div>
         <div className="phone-chips"><span className="selected">For you</span><span>Parties</span><span>Events</span></div>
         <div className="phone-event"><img src="/images/concert.webp" alt=""/><span className="event-category">LIVE MUSIC</span><div className="phone-event-caption"><b>Under the stars</b><span><MapPin size={10}/> Riverside</span></div></div>
         <div className="phone-event second-event"><img src="/images/live.webp" alt=""/><span className="event-category">PARTY</span><div className="phone-event-caption"><b>After hours</b><span><MapPin size={10}/> Downtown</span></div></div>
